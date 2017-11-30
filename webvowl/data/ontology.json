@@ -1,0 +1,380 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.2.0), http://vowl.visualdataweb.org",
+  "namespace" : [ ],
+  "header" : {
+    "languages" : [ "IRI-based", "undefined" ],
+    "iri" : "http://www.semanticweb.org/к/ontologies/2017/10/SUA",
+    "version" : "http://www.semanticweb.org/к/ontologies/2017/10/SUA/1.0",
+    "other" : {
+      "comment" : [ {
+        "identifier" : "comment",
+        "language" : "undefined",
+        "value" : "Свята України",
+        "type" : "label"
+      } ]
+    }
+  },
+  "metrics" : {
+    "classCount" : 17,
+    "datatypeCount" : 0,
+    "objectPropertyCount" : 0,
+    "datatypePropertyCount" : 0,
+    "propertyCount" : 0,
+    "nodeCount" : 17,
+    "axiomCount" : 33,
+    "individualCount" : 0
+  },
+  "class" : [ {
+    "id" : "class17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class11",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "id" : "class17",
+    "label" : {
+      "IRI-based" : "Свята_України_2018"
+    },
+    "iri" : "http://www.semanticweb.org/к/ontologies/2017/10/SUA#Свята_України_2018",
+    "subClasses" : [ "class1", "class13" ],
+    "instances" : 0
+  }, {
+    "id" : "class4",
+    "label" : {
+      "IRI-based" : "Новий_Рік(01-01)"
+    },
+    "iri" : "http://www.semanticweb.org/к/ontologies/2017/10/SUA#Новий_Рік(01-01)",
+    "superClasses" : [ "class1" ],
+    "instances" : 0
+  }, {
+    "id" : "class7",
+    "label" : {
+      "IRI-based" : "День_Праці(01-05)"
+    },
+    "iri" : "http://www.semanticweb.org/к/ontologies/2017/10/SUA#День_Праці(01-05)",
+    "superClasses" : [ "class1" ],
+    "instances" : 0
+  }, {
+    "id" : "class14",
+    "label" : {
+      "IRI-based" : "День_Конституції(28-06)"
+    },
+    "iri" : "http://www.semanticweb.org/к/ontologies/2017/10/SUA#День_Конституції(28-06)",
+    "superClasses" : [ "class1" ],
+    "instances" : 0
+  }, {
+    "id" : "class5",
+    "label" : {
+      "IRI-based" : "Хрещення_Господнє(19-01)"
+    },
+    "iri" : "http://www.semanticweb.org/к/ontologies/2017/10/SUA#Хрещення_Господнє(19-01)",
+    "superClasses" : [ "class13" ],
+    "instances" : 0
+  }, {
+    "id" : "class12",
+    "label" : {
+      "IRI-based" : "Різдво_Христове(07-01)"
+    },
+    "iri" : "http://www.semanticweb.org/к/ontologies/2017/10/SUA#Різдво_Христове(07-01)",
+    "superClasses" : [ "class1" ],
+    "instances" : 0
+  }, {
+    "id" : "class13",
+    "label" : {
+      "IRI-based" : "Цековні"
+    },
+    "iri" : "http://www.semanticweb.org/к/ontologies/2017/10/SUA#Цековні",
+    "subClasses" : [ "class6", "class11", "class16", "class3", "class9", "class5" ],
+    "superClasses" : [ "class17" ],
+    "instances" : 0
+  }, {
+    "id" : "class2",
+    "label" : {
+      "IRI-based" : "День_Перемоги(09-05)"
+    },
+    "iri" : "http://www.semanticweb.org/к/ontologies/2017/10/SUA#День_Перемоги(09-05)",
+    "superClasses" : [ "class1" ],
+    "instances" : 0
+  }, {
+    "id" : "class1",
+    "label" : {
+      "IRI-based" : "Державні"
+    },
+    "iri" : "http://www.semanticweb.org/к/ontologies/2017/10/SUA#Державні",
+    "subClasses" : [ "class14", "class15", "class2", "class7", "class10", "class8", "class4", "class12" ],
+    "superClasses" : [ "class17" ],
+    "instances" : 0
+  }, {
+    "id" : "class3",
+    "label" : {
+      "IRI-based" : "Преображення_Господнє(Спас)(19-08)"
+    },
+    "iri" : "http://www.semanticweb.org/к/ontologies/2017/10/SUA#Преображення_Господнє(Спас)(19-08)",
+    "superClasses" : [ "class13" ],
+    "instances" : 0
+  }, {
+    "id" : "class16",
+    "label" : {
+      "IRI-based" : "Покрова_Пресвятої_Богородиці(14-10)"
+    },
+    "iri" : "http://www.semanticweb.org/к/ontologies/2017/10/SUA#Покрова_Пресвятої_Богородиці(14-10)",
+    "superClasses" : [ "class13" ],
+    "instances" : 0
+  }, {
+    "id" : "class15",
+    "label" : {
+      "IRI-based" : "День_Незалежності(24-08)"
+    },
+    "iri" : "http://www.semanticweb.org/к/ontologies/2017/10/SUA#День_Незалежності(24-08)",
+    "superClasses" : [ "class1" ],
+    "instances" : 0
+  }, {
+    "id" : "class6",
+    "label" : {
+      "IRI-based" : "Благовіщення_Пресвятої_Богородиці(07-04)"
+    },
+    "iri" : "http://www.semanticweb.org/к/ontologies/2017/10/SUA#Благовіщення_Пресвятої_Богородиці(07-04)",
+    "superClasses" : [ "class13" ],
+    "instances" : 0
+  }, {
+    "id" : "class8",
+    "label" : {
+      "IRI-based" : "Міжнародний_жіночий_День(08-03)"
+    },
+    "iri" : "http://www.semanticweb.org/к/ontologies/2017/10/SUA#Міжнародний_жіночий_День(08-03)",
+    "superClasses" : [ "class1" ],
+    "instances" : 0
+  }, {
+    "id" : "class10",
+    "label" : {
+      "IRI-based" : "День_Соборності_України(22-01)"
+    },
+    "iri" : "http://www.semanticweb.org/к/ontologies/2017/10/SUA#День_Соборності_України(22-01)",
+    "superClasses" : [ "class1" ],
+    "instances" : 0
+  }, {
+    "id" : "class9",
+    "label" : {
+      "IRI-based" : "Троїця(27-05)"
+    },
+    "iri" : "http://www.semanticweb.org/к/ontologies/2017/10/SUA#Троїця(27-05)",
+    "superClasses" : [ "class13" ],
+    "instances" : 0
+  }, {
+    "id" : "class11",
+    "label" : {
+      "IRI-based" : "Пасха(08-04)"
+    },
+    "iri" : "http://www.semanticweb.org/к/ontologies/2017/10/SUA#Пасха(08-04)",
+    "superClasses" : [ "class13" ],
+    "instances" : 0
+  } ],
+  "property" : [ {
+    "id" : "property16",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property15",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property14",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property9",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property4",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property8",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property3",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property7",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property2",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property6",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property1",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property5",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property13",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property12",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property11",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property10",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "id" : "property16",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class12",
+    "range" : "class1"
+  }, {
+    "id" : "property15",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class4",
+    "range" : "class1"
+  }, {
+    "id" : "property14",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class8",
+    "range" : "class1"
+  }, {
+    "id" : "property9",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class14",
+    "range" : "class1"
+  }, {
+    "id" : "property4",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class11",
+    "range" : "class13"
+  }, {
+    "id" : "property8",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class5",
+    "range" : "class13"
+  }, {
+    "id" : "property3",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class6",
+    "range" : "class13"
+  }, {
+    "id" : "property7",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class9",
+    "range" : "class13"
+  }, {
+    "id" : "property2",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class13",
+    "range" : "class17"
+  }, {
+    "id" : "property6",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class3",
+    "range" : "class13"
+  }, {
+    "id" : "property1",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class1",
+    "range" : "class17"
+  }, {
+    "id" : "property5",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class16",
+    "range" : "class13"
+  }, {
+    "id" : "property13",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class10",
+    "range" : "class1"
+  }, {
+    "id" : "property12",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class7",
+    "range" : "class1"
+  }, {
+    "id" : "property11",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class2",
+    "range" : "class1"
+  }, {
+    "id" : "property10",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class15",
+    "range" : "class1"
+  } ]
+}
